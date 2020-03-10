@@ -1,0 +1,19 @@
+
+  name: sarcnet-bender
+  version: git
+  summary: SARCAN's network of information nodes: SARCNET# 79 char long summary
+  description: |
+    SARCNET gets the latest information in the SARCAN network and displays it to the customer. Bender is the first iteration of
+    the network. Enjoy.
+  
+  base: core18
+  confinement: devmode
+
+  grade: devel # must be 'stable' to release into candidate/stable channels
+  confinement: devmode # use 'strict' once you have the right plugs and slots
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
